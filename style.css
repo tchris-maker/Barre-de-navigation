@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #f8f8f8;
+}
+
+/* Grouper les liens */
+.nav-left a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Effet hover */
+.nav-left a:hover {
+    color: blueviolet;
+}
+
+/* Home en spécial */
+.home {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* Partie droite */
+.nav-right input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.login {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sign-up {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+}
